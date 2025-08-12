@@ -52,7 +52,6 @@ var _jsxruntime = __webpack_require__(70095);
 var _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(76388));
 var _reactnative = __webpack_require__(79640);
 function TeacherSide() {
-    console.log('>>>>', __webpack_require__(50067));
     return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
         style: {
             backgroundColor: 'blue'
