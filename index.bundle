@@ -56316,10 +56316,10 @@ var _client = __webpack_require__(57008);
 var _reactnativefs = /*#__PURE__*/ _interop_require_default._(__webpack_require__(38361));
 _client.ScriptManager.shared.addResolver((scriptId)=>_async_to_generator._(function*() {
         // In development, get all the chunks from dev server.
-        var fileName = `${_reactnativefs.default.DocumentDirectoryPath}/${scriptId}.chunk.bundle`;
+        // const fileName = `${RNFS.DocumentDirectoryPath}/${scriptId}.chunk.bundle`;
         console.log('__DEV__', false);
         if (false) {}
-        // const fileName = `https://raw.githubusercontent.com/trinmdotwork/finan-chunk/refs/heads/main/${scriptId}.chunk.bundle`;
+        var fileName = `https://raw.githubusercontent.com/trinmdotwork/finan-chunk/refs/heads/main/${scriptId}.chunk.bundle`;
         console.log(fileName);
         var file = `file://${fileName}`;
         return {
