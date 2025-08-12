@@ -1,4 +1,4 @@
-(self["webpackChunkMiniApp"] = self["webpackChunkMiniApp"] || []).push([["TeacherSide_tsx"], {
+(self["webpackChunkMiniApp"] = self["webpackChunkMiniApp"] || []).push([["TeacherSide"], {
 83610: (function (__unused_webpack_module, exports) {
 "use strict";
 
@@ -103,4 +103,4 @@ module.exports = {"1":{"uri":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD
 
 }),
 
-}]);//# sourceMappingURL=TeacherSide_tsx.chunk.bundle.map?platform=android
+}]);//# sourceMappingURL=TeacherSide.chunk.bundle.map?platform=android
