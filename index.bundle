@@ -55571,13 +55571,10 @@ _client.ScriptManager.shared.addResolver((scriptId)=>_async_to_generator._(funct
         // const fileName = `https://raw.githubusercontent.com/trinmdotwork/finan-chunk/refs/heads/main/${scriptId}.chunk.bundle`;
         // console.log(fileName);
         // const file = `${fileName}`;
-        // return {
-        //   url: file,
-        //   cache: true,
-        //   absolute: false,
-        // };
         return {
-            url: _client.Script.getRemoteURL(`https://raw.githubusercontent.com/trinmdotwork/finan-chunk/refs/heads/main/${scriptId}`)
+            url: `https://raw.githubusercontent.com/trinmdotwork/finan-chunk/refs/heads/main/${scriptId}.chunk.bundle`,
+            cache: true,
+            absolute: false
         };
     })());
 _reactnative.AppRegistry.registerComponent(_appjson.name, ()=>_App.default);
